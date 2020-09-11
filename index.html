@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+/* p */
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.tabels-index{
+  margin-top: 40px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+  h3:after {
+    content: ' \0025';
+    }
+.display{
+  padding-left:50px;
+    margin-top:80px;
+
+}
+.tour{
+  padding-top: 30px;
+  margin-left: 40px;
+}
+
+p{
+  {font-size: 1.5cm;}
+{font-size: 1cm;}
+
+
+}
+</style>
+</head>
+<body>
+<!--anchor links are used -->
+<div class="navbar">
+  <a href="https://www.greenhousebrandworks.com/">Home</a>
+  <a href="https://www.greenhousebrandworks.com/">News</a>
+  <a href="https://www.greenhousebrandworks.com/">Contact</a>
+  <a href="https://www.greenhousebrandworks.com/">About</a>
+</div>
+<!-- forms -->
+
+
+    <h2> Form</h2>
+ <div>
+     <form action="">
+<label for="fname">First Name</label>
+<input type="text" id="fname" name="firstname" placeholder="Your Name">
+<label for="subject" >subject</label>
+<textarea id="subject" name="subject" placeholder="Write you Wish" style="height: 150px;">
+</textarea>
+<input type="submit" value="submit">
+     </form>
+ </div>
+
+
+ <!-- tables -->
+<div class="tabels-index">
+  <h2>Table</h2>
+  <table>
+    <tr>
+      <th>company</th>
+      <th>contact</th>
+      <th>name</th>
+
+    </tr>
+
+<tr>
+  <th>ghbw</th>
+  <th>123456</th>
+  <th>robinhood</th>
+</tr>
+
+<tr>
+<th>gigabyte</th>
+<th>34567890</th>
+<th>jackmaa</th>
+</tr>
+  </table>
+</div>
+
+
+<!-- entites -->
+
+<div class="display">
+
+  <h2>
+    entites
+  </h2>
+  <h3 class="enti">I will display</h3>
+</div>
+<div>
+  <h2>iframe</h2>
+
+  <iframe src="#" name="iframe_a" height="400px" width="90%" title="iframe  example">
+  </iframe>
+
+  <p>
+    <a href="https://www.greenhousebrandworks.com/" target="iframe_a">GHBW</a>
+
+  </p>
+</div>
+
+
+<div class="tour">
+  <p>take a tour </P>
+</div>
+
+</body>
+</html>
